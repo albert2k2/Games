@@ -4,14 +4,12 @@ import os
 # pasta é do tipo c:\\usuáruo\\Jogo ... etc
 
 #source
-src_folder = 'pasta do save game'
+src_folder = '\\Zomboid\\Saves\\Sandbox\\savegame'
 
 #destination
-dst_folder = 'pasta de destino'
+dst_folder = '\\Zomboid\\Saves\\Sandbox\\backup\\savegame'
 
-#backup_folder ='pasta de backup'
-
-os.chdir('pasta de backup')
+os.chdir('\\Zomboid\\Saves\\Sandbox\\backup')
 
 #se estiver vazio copia direto, mas nem sempre ta vazio
 if os.listdir() == []:
